@@ -1,7 +1,18 @@
-name: data-science-handbook
+name: dsh
 channels:
   - conda-forge
 dependencies:
-  - python=3.5
-  - pip:
-    - -r requirements.txt
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - matplotlib
+  - seaborn
+  - line_profiler
+  - memory_profiler
+  - numexpr
+  - pandas-datareader
+  - netcdf4
+  - ipympl
